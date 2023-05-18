@@ -26,6 +26,27 @@ class ViewController: UIViewController {
     }
     
 
+
+//    
+//    // swift-tools-version:4.0
+//
+//    import PackageDescription
+//
+//    let package = Package(
+//        name: "dealer",
+//        products: [
+//            .executable(name: "Dealer", targets: ["Dealer"]),
+//        ],
+//        dependencies: [
+//            .package(url: "https://github.com/apple/example-package-deckofplayingcards.git", from: "3.0.0"),
+//        ],
+//        targets: [
+//            .target(
+//                name: "Dealer",
+//                dependencies: ["DeckOfPlayingCards"]),
+//        ]
+//    )
+//    
     
 //    Swift requires that a source file import the modules for any types that are referenced in code. For the Dealer module’s main.swift file, the Deck type from DeckOfPlayingCards and the PlayingCard type from PlayingCard are referenced. Although the shuffle() method on the Deck type uses the FisherYates module internally, that module does not need to be imported in main.swift.
 
