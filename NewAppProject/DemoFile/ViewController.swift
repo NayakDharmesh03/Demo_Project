@@ -21,12 +21,8 @@ class ViewController: UIViewController {
     //MARK: - new cod added by dharmesh
          
          // Set up the segmented control
-         segmentedControl.insertSegment(withTitle: "Segment 1", at: 0, animated: false)
-         segmentedControl.insertSegment(withTitle: "Segment 2", at: 1, animated: false)
-         segmentedControl.insertSegment(withTitle: "Segment 3", at: 2, animated: false)
-         segmentedControl.addTarget(self, action: #selector(segmentedControlValueChanged), for: .valueChanged)
-         view.addSubview(segmentedControl)
-         
+      //MARK: - CODE DELETED
+ 
          // Set the font attributes
          let normalFont = UIFont.systemFont(ofSize: 20, weight: .bold)
          let selectedFont = UIFont.systemFont(ofSize: 20, weight: .bold)
