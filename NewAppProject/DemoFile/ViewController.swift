@@ -25,6 +25,7 @@ class ViewController: UIViewController {
         view.addSubview(segmentedControl)
     }
 
+
     //MARK: - new cod added by dharmesh
          
          // Set up the segmented control
@@ -59,7 +60,29 @@ class ViewController: UIViewController {
      }
  
 //MARK: -  end code
->>>>>>> Dharmesh_Branch2
+
+//    
+//    // swift-tools-version:4.0
+//
+//    import PackageDescription
+//
+//    let package = Package(
+//        name: "dealer",
+//        products: [
+//            .executable(name: "Dealer", targets: ["Dealer"]),
+//        ],
+//        dependencies: [
+//            .package(url: "https://github.com/apple/example-package-deckofplayingcards.git", from: "3.0.0"),
+//        ],
+//        targets: [
+//            .target(
+//                name: "Dealer",
+//                dependencies: ["DeckOfPlayingCards"]),
+//        ]
+//    )
+//    
+    
+//    Swift requires that a source file import the modules for any types that are referenced in code. For the Dealer module’s main.swift file, the Deck type from DeckOfPlayingCards and the PlayingCard type from PlayingCard are referenced. Although the shuffle() method on the Deck type uses the FisherYates module internally, that module does not need to be imported in main.swift.
 
 //
 //    import PackageDescription
@@ -84,12 +107,6 @@ class ViewController: UIViewController {
 //    )
 //
 
-<<<<<<< HEAD
-    
-
-
-=======
->>>>>>> Dharmesh_Branch2
     @IBAction func btnMenuBarbuttonItemTapped(_ sender: UIBarButtonItem) {
         let camera = UIAction(title: "Camera", image: UIImage(systemName: "camera")){ _ in
             print("camera tapped")
