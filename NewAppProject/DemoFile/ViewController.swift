@@ -6,6 +6,10 @@
 //
 
 
+//Format UITextField text without having cursor move to the end
+
+
+
 import UIKit
 
 
