@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    
+    
+//    Swift requires that a source file import the modules for any types that are referenced in code. For the Dealer module’s main.swift file, the Deck type from DeckOfPlayingCards and the PlayingCard type from PlayingCard are referenced. Although the shuffle() method on the Deck type uses the FisherYates module internally, that module does not need to be imported in main.swift.
+
+
+    
+    
+    
 
     @IBAction func btnMenuBarbuttonItemTapped(_ sender: UIBarButtonItem) {
         let camera = UIAction(title: "Camera", image: UIImage(systemName: "camera")){ _ in
