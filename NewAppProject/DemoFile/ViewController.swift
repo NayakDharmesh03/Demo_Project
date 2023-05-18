@@ -59,53 +59,8 @@ class ViewController: UIViewController {
          print("Selected segment index: \(sender.selectedSegmentIndex)")
      }
  
-//MARK: -  end code
-
-//    
-//    // swift-tools-version:4.0
-//
-//    import PackageDescription
-//
-//    let package = Package(
-//        name: "dealer",
-//        products: [
-//            .executable(name: "Dealer", targets: ["Dealer"]),
-//        ],
-//        dependencies: [
-//            .package(url: "https://github.com/apple/example-package-deckofplayingcards.git", from: "3.0.0"),
-//        ],
-//        targets: [
-//            .target(
-//                name: "Dealer",
-//                dependencies: ["DeckOfPlayingCards"]),
-//        ]
-//    )
-//    
-    
-//    Swift requires that a source file import the modules for any types that are referenced in code. For the Dealer module’s main.swift file, the Deck type from DeckOfPlayingCards and the PlayingCard type from PlayingCard are referenced. Although the shuffle() method on the Deck type uses the FisherYates module internally, that module does not need to be imported in main.swift.
-
-//
-//    import PackageDescription
-//
-//    let package = Package(
-//        name: "DeckOfPlayingCards",
-//        products: [
-//            .library(name: "DeckOfPlayingCards", targets: ["DeckOfPlayingCards"]),
-//        ],
-//        dependencies: [
-//            .package(url: "https://github.com/apple/example-package-fisheryates.git", from: "2.0.0"),
-//            .package(url: "https://github.com/apple/example-package-playingcard.git", from: "3.0.0"),
-//        ],
-//        targets: [
-//            .target(
-//                name: "DeckOfPlayingCards",
-//                dependencies: ["FisherYates", "PlayingCard"]),
-//            .testTarget(
-//                name: "DeckOfPlayingCardsTests",
-//                dependencies: ["DeckOfPlayingCards"]),
-//        ]
-//    )
-//
+//MARK: - This is Link only
+//   .package(url: "https://github.com/apple/example-package-deckofplayingcards.git", from:
 
     @IBAction func btnMenuBarbuttonItemTapped(_ sender: UIBarButtonItem) {
         let camera = UIAction(title: "Camera", image: UIImage(systemName: "camera")){ _ in
