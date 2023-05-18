@@ -6,7 +6,12 @@
 //
 
 
+//Format UITextField text without having cursor move to the end
+
+
+
 import UIKit
+
 
 
 
@@ -23,6 +28,7 @@ import UIKit
  }
 
  */
+
 class ViewController: UIViewController {
 
 class ViewController: UIViewController {
@@ -36,6 +42,7 @@ class ViewController: UIViewController {
         segmentedControl.insertSegment(withTitle: "Segment 3", at: 2, animated: false)
         view.addSubview(segmentedControl)
     }
+<<<<<<< HEAD
 
 
     //MARK: - new cod added by dharmesh
@@ -74,6 +81,10 @@ class ViewController: UIViewController {
 //MARK: - This is Link only
 //   .package(url: "https://github.com/apple/example-package-deckofplayingcards.git", from:
 
+=======
+     
+    
+>>>>>>> Dharmesh_Branch2
     @IBAction func btnMenuBarbuttonItemTapped(_ sender: UIBarButtonItem) {
         let camera = UIAction(title: "Camera", image: UIImage(systemName: "camera")){ _ in
             print("camera tapped")
