@@ -12,14 +12,7 @@ import UIKit
  let selectedFont = UIFont.boldSystemFont(ofSize: 20)
  */
 
-/*
- segmentedControl.insertSegment(withTitle: "Segment 1", at: 0, animated: false)
-        segmentedControl.insertSegment(withTitle: "Segment 2", at: 1, animated: false)
-        segmentedControl.insertSegment(withTitle: "Segment 3", at: 2, animated: false)
-        segmentedControl.addTarget(self, action: #selector(segmentedControlValueChanged), for: .valueChanged)
-        view.addSubview(segmentedControl)
- 
- */
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
