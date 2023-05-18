@@ -8,7 +8,8 @@
 
 import UIKit
 /*
- In this updated code, the font attributes are set with a weight of .bold for both the normal and selected states. By using UIFont.systemFont(ofSize:weight:), we can specify the font size and weight. The text color attributes remain the same, with gray for the normal state and white for the selected state.
+ let normalFont = UIFont.boldSystemFont(ofSize: 20)
+ let selectedFont = UIFont.boldSystemFont(ofSize: 20)
  */
 class ViewController: UIViewController {
 
