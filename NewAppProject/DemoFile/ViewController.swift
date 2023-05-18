@@ -7,13 +7,25 @@
 
 
 import UIKit
+/*
+ let normalFont = UIFont.boldSystemFont(ofSize: 20)
+ let selectedFont = UIFont.boldSystemFont(ofSize: 20)
+ */
+
 
 class ViewController: UIViewController {
-
+    @IBOutlet var segmentedControl: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        segmentedControl.insertSegment(withTitle: "Segment 1", at: 0, animated: false)
+        segmentedControl.insertSegment(withTitle: "Segment 2", at: 1, animated: false)
+        segmentedControl.insertSegment(withTitle: "Segment 3", at: 2, animated: false)
+        view.addSubview(segmentedControl)
     }
     
+
     
 //    Swift requires that a source file import the modules for any types that are referenced in code. For the Dealer module’s main.swift file, the Deck type from DeckOfPlayingCards and the PlayingCard type from PlayingCard are referenced. Although the shuffle() method on the Deck type uses the FisherYates module internally, that module does not need to be imported in main.swift.
 
@@ -41,6 +53,7 @@ class ViewController: UIViewController {
 //
 
     
+
 
     @IBAction func btnMenuBarbuttonItemTapped(_ sender: UIBarButtonItem) {
         let camera = UIAction(title: "Camera", image: UIImage(systemName: "camera")){ _ in
