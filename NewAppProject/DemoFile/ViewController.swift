@@ -7,11 +7,23 @@
 
 
 import UIKit
-/*
- let normalFont = UIFont.boldSystemFont(ofSize: 20)
- let selectedFont = UIFont.boldSystemFont(ofSize: 20)
- */
 
+
+
+/*
+ let str1 = "apple"
+ let str2 = "banana"
+
+ if str1 == str2 {
+     print("Strings are equal")
+ } else if str1 < str2 {
+     print("str1 comes before str2")
+ } else {
+     print("str1 comes after str2")
+ }
+
+ */
+class ViewController: UIViewController {
 
 class ViewController: UIViewController {
     @IBOutlet var segmentedControl: UISegmentedControl!
